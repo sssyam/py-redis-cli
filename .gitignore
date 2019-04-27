@@ -1,3 +1,5 @@
+.git
 .gitignore
 final
 redis-telnet.py
+__pycache__
