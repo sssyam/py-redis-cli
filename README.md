@@ -1,4 +1,4 @@
-Building Blocks for Redis CLI for Elasticache
-Uses SOCKET and SSL for basic implementation
-No error handling as of now
-In progress
+Building Blocks for Redis CLI for Elasticache<br>
+Uses SOCKET and SSL for basic implementation<br>
+No error handling as of now<br>
+In progress<br>
