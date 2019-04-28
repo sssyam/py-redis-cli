@@ -12,7 +12,7 @@ def cmd(host, port):
         command = command + " \n"
         if 'exit' == command.strip():
             break
-        elif 'monitor' == command.strip():
+        elif 'monitor' == command.strip() or command.split()[0].strip() == 'subscribe':
             try:
                 soc.send(command.encode())
                 while(True):
