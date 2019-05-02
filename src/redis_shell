@@ -1,0 +1,7 @@
+#! /usr/bin/python3
+
+import sys
+from helper.redis_cli import init
+
+if __name__ == "__main__":
+	init(sys.argv)
